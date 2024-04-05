@@ -1,3 +1,8 @@
+:root {
+	--color-frame: #000;
+	--color-canvas: #4b054c;
+}
+
 .card {
 	width: 300px;
 }
@@ -5,13 +10,13 @@
 .canvas {
 	width: 500px;
 	height: 600px;
-	background-color: #4d0f00;
+	background-color: var(--color-canvas);
 	overflow: hidden;
 	filter: blur(2px);
 }
 
 .frame {
-	border: black 50px solid;
+	border: var(--color-frame) 50px solid;
 	width: 500px;
 	padding: 50px;
 	margin: 20px auto;
