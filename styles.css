@@ -36,8 +36,16 @@
 
 @keyframes eye_color {
 	0% {background-color: #000;}
+	10% {background-color: red;}
+	20% {background-color: #000}
+	30% {background-color: red;}
+	40% {background-color: #000}
 	50% {background-color: red;}
-	100% {background-color: #000}
+	60% {background-color: #000}
+	70% {background-color: red;}
+	80% {background-color: #000}
+	90% {background-color: red;}
+	100% {background-color: #000;}
 }
 
 .eyes {
@@ -52,7 +60,7 @@
 	transform: translate(70px, 70px);
 	margin-right: 20px;
 	animation-name: eye_color;
-	animation-duration: 10s;
+	animation-duration: 60s;
 }
 
 .nose {
