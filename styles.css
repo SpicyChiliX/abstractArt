@@ -21,3 +21,45 @@
 	padding: 50px;
 	margin: 20px auto;
 }
+
+.head {
+
+	width: 350px;
+	height: 350px;
+	background-color: #f3f5f5;
+	border-radius: 50%;
+	transform: translate(70px, 50px);
+	box-shadow: 2px 20px red;
+	position: absolute;
+
+}
+
+@keyframes eye_color {
+	0% {background-color: #000;}
+	50% {background-color: red;}
+	100% {background-color: #000}
+}
+
+.eyes {
+	
+	width: 80px;
+	height: 75px;
+	background-color: #000;
+	border-style: dashed;
+	border-radius: 75%;
+	display: inline-block;
+	padding: 5px;
+	transform: translate(70px, 70px);
+	margin-right: 20px;
+	animation-name: eye_color;
+	animation-duration: 10s;
+}
+
+.nose {
+
+	width: 90px;
+	height: 90px;
+	background-color: red;
+	border-radius: 50%;
+	transform: translate(130px, 90px);
+}
